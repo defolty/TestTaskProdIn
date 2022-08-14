@@ -7,6 +7,24 @@
  
 import UIKit
 
+extension GuessTheNumberViewController {
+    private func setConstraints() {
+        NSLayoutConstraint.activate([
+            //Constraints to RoundLabel
+            roundLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 60),
+            roundLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            //Constraints to NumberTextField
+            numberTextField.topAnchor.constraint(equalTo: roundLabel.bottomAnchor, constant: 50),
+            numberTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            //Constraints to EnterNumberButton
+            enterNumberButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -150),
+            enterNumberButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            enterNumberButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            enterNumberButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
+        ])
+    }
+}
+
 class GuessTheNumberViewController: UIViewController {
      
     var guessingNumber: String = "0"
@@ -67,20 +85,3 @@ class GuessTheNumberViewController: UIViewController {
     }
 }
 
-extension GuessTheNumberViewController {
-    private func setConstraints() {
-        NSLayoutConstraint.activate([
-            //Constraints to RoundLabel
-            roundLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 60),
-            roundLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            //Constraints to NumberTextField
-            numberTextField.topAnchor.constraint(equalTo: roundLabel.bottomAnchor, constant: 50),
-            numberTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            //Constraints to EnterNumberButton
-            enterNumberButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -150),
-            enterNumberButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            enterNumberButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            enterNumberButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
-        ])
-    }
-}
