@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		FB610F5628A6D7C200B90A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610F5528A6D7C200B90A18 /* AppDelegate.swift */; };
 		FB610F5828A6D7C200B90A18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610F5728A6D7C200B90A18 /* SceneDelegate.swift */; };
-		FB610F5A28A6D7C200B90A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610F5928A6D7C200B90A18 /* ViewController.swift */; };
-		FB610F5D28A6D7C200B90A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB610F5B28A6D7C200B90A18 /* Main.storyboard */; };
 		FB610F5F28A6D7C300B90A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB610F5E28A6D7C300B90A18 /* Assets.xcassets */; };
 		FB610F6228A6D7C300B90A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB610F6028A6D7C300B90A18 /* LaunchScreen.storyboard */; };
+		FB610FD228A978AC00B90A18 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FD128A978AC00B90A18 /* UIStackView.swift */; };
+		FB610FD428A978B600B90A18 /* MainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FD328A978B600B90A18 /* MainLabel.swift */; };
+		FB610FD628A9791900B90A18 /* NumbersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FD528A9791900B90A18 /* NumbersModel.swift */; };
+		FB610FD828A9793700B90A18 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FD728A9793700B90A18 /* StartGameViewController.swift */; };
+		FB610FDA28A9796200B90A18 /* GuessTheNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FD928A9796200B90A18 /* GuessTheNumberViewController.swift */; };
+		FB610FDC28A9799500B90A18 /* MachineResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FDB28A9799500B90A18 /* MachineResultViewController.swift */; };
+		FB610FDE28A979CD00B90A18 /* PlayerResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FDD28A979CD00B90A18 /* PlayerResultViewController.swift */; };
+		FB610FE028A979E500B90A18 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FDF28A979E500B90A18 /* ResultsViewController.swift */; };
+		FB610FE628A97A5F00B90A18 /* StartNewGameButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FE528A97A5F00B90A18 /* StartNewGameButton.swift */; };
+		FB610FE828A97A6E00B90A18 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FE728A97A6E00B90A18 /* NumberTextField.swift */; };
+		FB610FEA28A97A7D00B90A18 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB610FE928A97A7D00B90A18 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB610F5228A6D7C200B90A18 /* TestTaskProdIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskProdIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB610F5528A6D7C200B90A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB610F5728A6D7C200B90A18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB610F5928A6D7C200B90A18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB610F5C28A6D7C200B90A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB610F5E28A6D7C300B90A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB610F6128A6D7C300B90A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB610F6328A6D7C300B90A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB610FD128A978AC00B90A18 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		FB610FD328A978B600B90A18 /* MainLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLabel.swift; sourceTree = "<group>"; };
+		FB610FD528A9791900B90A18 /* NumbersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersModel.swift; sourceTree = "<group>"; };
+		FB610FD728A9793700B90A18 /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		FB610FD928A9796200B90A18 /* GuessTheNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberViewController.swift; sourceTree = "<group>"; };
+		FB610FDB28A9799500B90A18 /* MachineResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineResultViewController.swift; sourceTree = "<group>"; };
+		FB610FDD28A979CD00B90A18 /* PlayerResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerResultViewController.swift; sourceTree = "<group>"; };
+		FB610FDF28A979E500B90A18 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		FB610FE528A97A5F00B90A18 /* StartNewGameButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNewGameButton.swift; sourceTree = "<group>"; };
+		FB610FE728A97A6E00B90A18 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
+		FB610FE928A97A7D00B90A18 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		FB610F5428A6D7C200B90A18 /* TestTaskProdIn */ = {
 			isa = PBXGroup;
 			children = (
-				FB610F5528A6D7C200B90A18 /* AppDelegate.swift */,
-				FB610F5728A6D7C200B90A18 /* SceneDelegate.swift */,
-				FB610F5928A6D7C200B90A18 /* ViewController.swift */,
-				FB610F5B28A6D7C200B90A18 /* Main.storyboard */,
-				FB610F5E28A6D7C300B90A18 /* Assets.xcassets */,
-				FB610F6028A6D7C300B90A18 /* LaunchScreen.storyboard */,
 				FB610F6328A6D7C300B90A18 /* Info.plist */,
+				FB610FEB28A97B6700B90A18 /* AppResources */,
+				FB610FE128A979F500B90A18 /* Controllers */,
+				FB610FE328A97A0300B90A18 /* Extensions */,
+				FB610FE228A979FD00B90A18 /* Models */,
+				FB610FE428A97A3D00B90A18 /* Views */,
 			);
 			path = TestTaskProdIn;
+			sourceTree = "<group>";
+		};
+		FB610FE128A979F500B90A18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB610FD728A9793700B90A18 /* StartGameViewController.swift */,
+				FB610FD928A9796200B90A18 /* GuessTheNumberViewController.swift */,
+				FB610FDB28A9799500B90A18 /* MachineResultViewController.swift */,
+				FB610FDD28A979CD00B90A18 /* PlayerResultViewController.swift */,
+				FB610FDF28A979E500B90A18 /* ResultsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB610FE228A979FD00B90A18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB610FD528A9791900B90A18 /* NumbersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB610FE328A97A0300B90A18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB610FD128A978AC00B90A18 /* UIStackView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB610FE428A97A3D00B90A18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB610FD328A978B600B90A18 /* MainLabel.swift */,
+				FB610FE528A97A5F00B90A18 /* StartNewGameButton.swift */,
+				FB610FE728A97A6E00B90A18 /* NumberTextField.swift */,
+				FB610FE928A97A7D00B90A18 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB610FEB28A97B6700B90A18 /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				FB610F5528A6D7C200B90A18 /* AppDelegate.swift */,
+				FB610F5728A6D7C200B90A18 /* SceneDelegate.swift */,
+				FB610F5E28A6D7C300B90A18 /* Assets.xcassets */,
+				FB610F6028A6D7C300B90A18 /* LaunchScreen.storyboard */,
+			);
+			path = AppResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +194,6 @@
 			files = (
 				FB610F6228A6D7C300B90A18 /* LaunchScreen.storyboard in Resources */,
 				FB610F5F28A6D7C300B90A18 /* Assets.xcassets in Resources */,
-				FB610F5D28A6D7C200B90A18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +204,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB610F5A28A6D7C200B90A18 /* ViewController.swift in Sources */,
+				FB610FEA28A97A7D00B90A18 /* CustomButton.swift in Sources */,
+				FB610FE028A979E500B90A18 /* ResultsViewController.swift in Sources */,
+				FB610FDE28A979CD00B90A18 /* PlayerResultViewController.swift in Sources */,
+				FB610FE828A97A6E00B90A18 /* NumberTextField.swift in Sources */,
+				FB610FD828A9793700B90A18 /* StartGameViewController.swift in Sources */,
+				FB610FDA28A9796200B90A18 /* GuessTheNumberViewController.swift in Sources */,
+				FB610FDC28A9799500B90A18 /* MachineResultViewController.swift in Sources */,
 				FB610F5628A6D7C200B90A18 /* AppDelegate.swift in Sources */,
+				FB610FE628A97A5F00B90A18 /* StartNewGameButton.swift in Sources */,
+				FB610FD628A9791900B90A18 /* NumbersModel.swift in Sources */,
 				FB610F5828A6D7C200B90A18 /* SceneDelegate.swift in Sources */,
+				FB610FD428A978B600B90A18 /* MainLabel.swift in Sources */,
+				FB610FD228A978AC00B90A18 /* UIStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB610F5B28A6D7C200B90A18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB610F5C28A6D7C200B90A18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB610F6028A6D7C300B90A18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +360,9 @@
 				INFOPLIST_FILE = TestTaskProdIn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +388,9 @@
 				INFOPLIST_FILE = TestTaskProdIn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
