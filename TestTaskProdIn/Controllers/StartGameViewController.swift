@@ -7,20 +7,7 @@
 
 import UIKit
 
-extension StartViewController {
-    private func setConstraints() {
-        NSLayoutConstraint.activate([
-            nameLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 120),
-            nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            startNewGameButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -150),
-            startNewGameButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            startNewGameButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            startNewGameButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
-        ])
-    }
-}
-
-class StartViewController: UIViewController {
+class StartGameViewController: UIViewController {
     
     private let nameLabel = MainLabel()
     private let startNewGameButton = StartNewGameButton()
@@ -45,5 +32,16 @@ class StartViewController: UIViewController {
         self.present(guessVC, animated: true, completion: nil)
     }
 }
-
-
+ 
+extension StartGameViewController {
+    private func setConstraints() {
+        NSLayoutConstraint.activate([
+            nameLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 120),
+            nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            startNewGameButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -150),
+            startNewGameButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            startNewGameButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            startNewGameButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20)
+        ])
+    }
+}

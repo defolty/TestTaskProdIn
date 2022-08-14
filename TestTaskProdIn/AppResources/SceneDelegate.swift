@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             
             let window = UIWindow(windowScene: windowScene)
             let navController = UINavigationController()
-            let viewController = StartViewController()
+            let viewController = StartGameViewController()
             
             navController.viewControllers = [viewController]
             window.rootViewController = navController

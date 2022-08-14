@@ -60,17 +60,13 @@ extension ResultsViewController {
         NSLayoutConstraint.activate([
             scoresLabel.bottomAnchor.constraint(equalTo: view.topAnchor, constant: 60),
             scoresLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            //
             myTrieslabel.topAnchor.constraint(equalTo: scoresLabel.bottomAnchor, constant: 120),
             myTrieslabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            //
             compTriesLabel.topAnchor.constraint(equalTo: myTrieslabel.bottomAnchor, constant: 15),
             compTriesLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            //
             mainMenuButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -60),
             mainMenuButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            mainMenuButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            //
+            mainMenuButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20), 
             whoWinLabel.bottomAnchor.constraint(equalTo: mainMenuButton.topAnchor, constant: -60),
             whoWinLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])

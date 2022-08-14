@@ -33,8 +33,7 @@ class NumberTextField: UITextField, UITextFieldDelegate {
         return valuesRange.contains(Int(newText) ?? minValue - 1)
     }
      
-    private func configure() {
-
+    private func configure() { 
         layer.cornerRadius = 20
         backgroundColor = .white
         borderStyle = .roundedRect

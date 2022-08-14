@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ComputersResultViewController: UIViewController {
+class MachineResultViewController: UIViewController {
     
     var guessedNumber = 0
     var numberModel = NumbersModel(
@@ -57,9 +57,9 @@ class ComputersResultViewController: UIViewController {
         moreButton.addTarget(self, action: #selector(moreButtonTapped), for: .touchUpInside)
         counter = 1
         roundLabel.text = "Round № \(counter)"
-        whoseGuessesLabel.text = "computer guesses"
+        whoseGuessesLabel.text = "Computer guesses"
         mid = (min + max) / 2
-        guessesLabel.text = "number is - \(mid)?"
+        guessesLabel.text = "Number is - \(mid)?"
         buttonsStackView.distribution = .fillEqually
          
         view.addSubview(roundLabel)
@@ -76,7 +76,7 @@ class ComputersResultViewController: UIViewController {
         if guessedNumber == mid {
             equalButton.isEnabled = true
             print("I'm enabled")
-            let gamersResultVC = GamersResultViewController()
+            let gamersResultVC = PlayerResultViewController()
             gamersResultVC.compCounter = counter
             present(gamersResultVC, animated: true, completion: nil)
         }
@@ -92,7 +92,7 @@ class ComputersResultViewController: UIViewController {
             mid = (min + max) / 2
             counter += 1
 
-            guessesLabel.text = "number is - \(mid)?"
+            guessesLabel.text = "Number is - \(mid)?"
             roundLabel.text = "Round № \(counter)"
         }
     }
@@ -101,14 +101,14 @@ class ComputersResultViewController: UIViewController {
         if guessedNumber > mid {
             min = mid
             mid = (min + max) / 2
-            guessesLabel.text = "number is - \(mid)?"
+            guessesLabel.text = "Number is - \(mid)?"
             counter += 1
             roundLabel.text = "Round № \(counter)"
         }
     }
 }
 
-extension ComputersResultViewController {
+extension MachineResultViewController {
     private func setConstraints() {
         NSLayoutConstraint.activate([
             roundLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 60),

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GamersResultViewController: UIViewController {
+class PlayerResultViewController: UIViewController {
     
     private let gamersResultTextField = NumberTextField()
     private let enterNumberButton = CustomButton()
@@ -61,8 +61,7 @@ class GamersResultViewController: UIViewController {
             }
         }
     }
-    
-
+     
     private func checkResult(myNumber: Int) {
         if myNumber == guessedNumber {
             print("GoNextVC")
@@ -89,14 +88,12 @@ class GamersResultViewController: UIViewController {
             print(number)
             checkResult(myNumber: number)
             counter += 1
-            roundLabel.text = "Round № \(counter)"
-            
-            
+            roundLabel.text = "Round № \(counter)" 
         }
     }
 }
 
-extension GamersResultViewController {
+extension PlayerResultViewController {
     private func setConstraints() {
         NSLayoutConstraint.activate([
             roundLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),

@@ -21,13 +21,11 @@ class CustomButton: UIButton {
     
     private func configure() {
         setTitle("Enter the number", for: .normal)
-        
         backgroundColor = .systemBlue
         setTitleColor(.white, for: .normal)
         titleLabel?.font = UIFont.boldSystemFont(ofSize: 17)
         titleLabel?.numberOfLines = 1
-        layer.cornerRadius = 10
-        
+        layer.cornerRadius = 10 
         titleEdgeInsets = UIEdgeInsets(
             top: 5,
             left: 10,
